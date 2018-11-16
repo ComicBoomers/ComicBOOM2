@@ -21,12 +21,12 @@
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "NAN",
+    apiKey: process.env.API_KEY,
     authDomain: "comicboom-71166.firebaseapp.com",
     databaseURL: "https://comicboom-71166.firebaseio.com",
     projectId: "comicboom-71166",
-    storageBucket: "comicboom-71166.appspot.com",
-    messagingSenderId: "NAN"
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID
   };
   firebase.initializeApp(config);
 </script>
