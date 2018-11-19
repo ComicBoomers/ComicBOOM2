@@ -1,37 +1,37 @@
-import React, {
-  Component
-} from 'react';
-import logo from './boom.svg';
+// import React, {
+//   Component
+// } from 'react';
+// import logo from './boom.svg';
 
-class AddVideo extends Component {
+// class AddVideo extends Component {
 
-  constructor() {
-    super()
-    this.state = {
-      videoFile: ''
-    }
-    this.handleSubmit = this.handleSubmit.bind(this)
-  }
+//   constructor() {
+//     super()
+//     this.state = {
+//       videoFile: ''
+//     }
+//     this.handleSubmit = this.handleSubmit.bind(this)
+//   }
 
-  handleSubmit() {
-    //videofile to state? can a video file be on state?
-    //call function to Boomify vid on state and initiate PageCreate with returned gifs
-  }
+//   handleSubmit() {
+//     //videofile to state? can a video file be on state?
+//     //call function to Boomify vid on state and initiate PageCreate with returned gifs
+//   }
 
-     // browse users phone for file???
+//      // browse users phone for file???
 
 
-  render() {
-    <div>
-      <form action="upload_file.php" method="post" enctype="multipart/form-data">
-        <label>Boomify ur vid</label>
-        <input type="file" name="video" id="vidfile"></input>
-        <button>browse..</button>
-        <br />
-        <input type="submit" name="submit" value="Submit" />
-      </form>
-    </div>
-  }
-}
+//   render() {
+//     <div>
+//       <form action="upload_file.php" method="post" enctype="multipart/form-data">
+//         <label>Boomify ur vid</label>
+//         <input type="file" name="video" id="vidfile"></input>
+//         <button>browse..</button>
+//         <br />
+//         <input type="submit" name="submit" value="Submit" />
+//       </form>
+//     </div>
+//   }
+// }
 
-export default AddVideo;
+// export default AddVideo;

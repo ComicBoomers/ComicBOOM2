@@ -1,21 +1,21 @@
-import React, {
-  Component
-} from 'react';
-import logo from './boom.svg';
+// import React, {
+//   Component
+// } from 'react';
+// import logo from './boom.svg';
 
-class PageCreate extends Component {
+// class PageCreate extends Component {
 
-  constructor() {
-    super()
-    this.state = {
-      gifs: ''
-    }
-  }
+//   constructor() {
+//     super()
+//     this.state = {
+//       gifs: ''
+//     }
+//   }
 
 
-  render() {
+//   render() {
 
-  }
-}
+//   }
+// }
 
 export default PageCreate;
